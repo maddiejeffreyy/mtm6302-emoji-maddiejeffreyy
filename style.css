@@ -44,3 +44,22 @@ table {
 }
 
 /* ----------------------- CSS STYLESHEET ------------------------------- */
+
+body{
+    width:100%;
+}
+h1{
+    font-size: 3rem;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li{
+    flex-basis: 2;
+    margin: 0.25em;
+    padding: 0.25em;
+    border: 1px solid black ;
+}
