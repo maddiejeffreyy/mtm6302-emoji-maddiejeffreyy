@@ -46,20 +46,38 @@ table {
 /* ----------------------- CSS STYLESHEET ------------------------------- */
 
 body{
-    width:100%;
+   width: 100%;
 }
 h1{
     font-size: 3rem;
+	justify-content: center;
 }
 
-ul{
+/* .container{
     display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
     list-style: none;
+	column-gap: 1em;
+	row-gap: 1em;
 }
-li{
-    flex-basis: 2;
-    margin: 0.25em;
-    padding: 0.25em;
-    border: 1px solid black ;
+
+.display{
+	border: 0.025em solid black;
+} */
+
+.container{
+	max-width: 1200px;
+    display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 1em;
 }
+
+.display{
+	border: 0.025em solid black;
+	font-size: 100%;
+}
+
+.emoji{
+	font-size: 5em;
+}
+
